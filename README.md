@@ -10,7 +10,7 @@ In this repository, you will find the frontend for this project built with React
 
 ### Dashboard Page
 
-![Spoon1](https://raw.githubusercontent.com/diaaanek/SPOON/master/public/spoon11.png)
+![Spoon1](https://raw.githubusercontent.com/diaaanek/lets-spoon/master/public/spoon.png)
 
 ### My Plate
 
@@ -58,7 +58,7 @@ Start local server:
 
 ### (2) Fork the front end repo
 
-In the project directory, located: [here](https://github.com/diaaanek/SPOON_Client), you can run:
+In the project directory, located: [here](https://github.com/diaaanek/lets-spoon), you can run:
 
 `npm i && npm start`
 
@@ -77,4 +77,4 @@ The page will reload if you make edits.<br>
 
 Contributions are welcomed! Fork, fix, then send a pull request.
 
-Bug reports and pull requests are welcome on GitHub at [Spoon repo](https://github.com/diaaanek/SPOON_client), please open Issues to provide feedback.
+Bug reports and pull requests are welcome on GitHub at [Spoon repo](https://github.com/diaaanek/lets-spoon), please open Issues to provide feedback.
