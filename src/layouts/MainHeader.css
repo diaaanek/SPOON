@@ -1,0 +1,18 @@
+.MainHeader {
+  max-width: 100vh;
+  grid-column: 1/ 4;
+  overflow: hidden;
+  grid-row: auto;
+  display: flex;
+
+  flex-direction: row;
+  padding: 0rem;
+}
+
+.logo {
+  position: relative;
+  width: 195px;
+  margin-top: 0.75em;
+  height: 62px;
+  top: 0px;
+}

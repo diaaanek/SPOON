@@ -1,0 +1,115 @@
+.SidebarContainer {
+  font-family: "Montserrat", sans-serif;
+  grid-column: 1;
+  grid-row: 2;
+  background: white;
+  color: grey;
+  border-right: 1px solid lightgrey;
+  height: 100vh;
+  width: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.SideCard {
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+  background: linear-gradient(262deg, #ff7854, #fd267d);
+  margin: 0;
+
+  margin-bottom: 1em;
+}
+
+.SideBar {
+  width: 400px;
+
+  margin-left: 0.3em;
+}
+
+.leaflet-container {
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#img-profile {
+  width: 75px;
+  height: 75px;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.showDetailsBut {
+  background-image: linear-gradient(top, #f4f1ee, #fff);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.5rem;
+
+  /* line-height: 3.6rem; */
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  width: 2.5em;
+}
+
+.RestaurantCard {
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 5%;
+
+  width: 390px;
+  height: 95px;
+}
+
+.RestaurantCard:hover {
+  box-shadow: 0 0 15px 0 hsla(0, 0%, 50.6%, 0.22);
+  border-right: 3px solid #fd267d;
+}
+
+.RestaurantDetails img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  border-style: double;
+  border-width: thick;
+  border-color: grey;
+  padding: 2.5%;
+}
+
+.map {
+  border-color: black;
+  border-style: solid;
+}
+
+.goback {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.27);
+  width: 50%;
+  margin-top: 1em;
+  background: linear-gradient(262deg, #ff7854, #fd267d);
+  border-radius: 100px;
+  /* box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    0 2px 2px rgba(0, 0, 0, 0.19); */
+  font-weight: bold;
+}
+
+.goback:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 1 2px rgba(0, 0, 0, 0.3);
+}

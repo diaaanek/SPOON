@@ -1,0 +1,36 @@
+.login{
+  background-image: url("https://www.malagaldia.es/wp-content/uploads/2018/12/celebrate-celebration-cheers-1268558.jpg");
+  color:white;
+  background-position: center;
+  background-size: 100% 1000px;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-bottom: auto;
+  height:600px;
+  padding: 10%;
+  opacity: .8;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+}
+
+.loginForm{
+  color:black;
+  border-radius: 30px;
+  background-color: white;
+  opacity: .8;
+  width:500px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+.link{
+  color:black;
+  border-color: black;
+  border-style: solid;
+  padding: 1%;
+  margin-top: 10px;
+}

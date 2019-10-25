@@ -1,0 +1,36 @@
+{
+  "name": "spoon_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.7.2",
+    "leaflet": "^1.4.0",
+    "lodash": "latest",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-leaflet": "^2.2.1",
+    "react-rater": "^5.0.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-spring": "^8.0.10",
+    "react-swipy": "0.0.6",
+    "styled-components": "^3.3.0",
+    "styled-icons": "2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

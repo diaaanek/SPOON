@@ -1,0 +1,62 @@
+.MainContainer {
+  width: 100%;
+  max-width: 1440px;
+  max-width: 100%;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 0.75fr; */
+  grid-template-rows: auto;
+  /* margin: 0 auto; */
+  overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: grey;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7c7c7c;
+  text-align: justify;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 20px;
+  text-decoration: bold;
+}
